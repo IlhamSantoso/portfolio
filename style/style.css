@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',
+        sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.header-wave {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(#4F5BFA, #1000FF);
+    color: white;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+
+.header-wave::before {
+    content: '';
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: url(/assets/img/wave-d.png) 100% 100% no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+
+.text-left {
+    z-index: 2;
+    margin-top: 100px;
+}
+
+.red {
+    color: #F05D7B;
+    font-size: 36px;
+}
+
+.text-left h2 {
+    font-size: 26px;
+}
+
+.text-left h1 {
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.text-left p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.text-left .btn {
+    margin-top: 40px;
+    width: 190px;
+    border-radius: 40px;
+    background-color: #F05D7B;
+    color: white;
+}
+
+.myImg img {
+    width: 300px;
+    z-index: 1;
+}
+
+.medsos {
+    margin-top: 30px;
+}
+
+.medsos-item:hover {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.medsos-item {
+    margin-right: 20px;
+    width: 30px;
+}
+
+/* section main */
+
+.section-title {
+    font-weight: 700;
+    text-align: center;
+    color: #4F5BFA;
+    margin-bottom: 20px;
+}
+
+.section-content {
+    width: 100%;
+    text-align: justify;
+    opacity: 0.8;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.striped {
+    background-color: rgba(190, 192, 248, 0.3);
+    padding: 20px;
+}
+
+/* about */
+.about-img img {
+    width: 250px;
+}
+
+/* skill */
+.card-skil {
+    padding: 20px;
+    width: 100%;
+    max-height: 100px;
+    border-radius: 22px 22px 22px 22px;
+    -moz-border-radius: 22px 22px 22px 22px;
+    -webkit-border-radius: 22px 22px 22px 22px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(199, 199, 199, 1);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(199, 199, 199, 1);
+    box-shadow: 0px 0px 15px 1px rgba(199, 199, 199, 1);
+}
+
+/* foooter */
+footer {
+    padding: 20px;
+}
+
+footer .medsos {
+    margin-top: -10px;
+}
+
+@media screen and (max-width:600px) {
+    .red {
+        color: #F05D7B;
+        font-size: 35px;
+    }
+
+    .text-left h2 {
+        font-size: 24px;
+    }
+
+    .text-left .btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .medsos {
+        text-align: center;
+    }
+}

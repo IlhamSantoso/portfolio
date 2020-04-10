@@ -24,7 +24,7 @@
     width: 100%;
     left: 0;
     bottom: 0;
-    background: url(assets/img/wave-d.png) 100% 100% no-repeat;
+    background: url(../assets/img/wave-d.png) 100% 100% no-repeat;
     background-size: contain;
     z-index: 2;
 }
